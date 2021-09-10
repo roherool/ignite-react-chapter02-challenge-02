@@ -8,7 +8,7 @@ import { ModalAddFood } from "../../components/ModalAddFood";
 import { ModalEditFood } from "../../components/ModalEditFood";
 
 import { FoodsContainer } from "./styles";
-import { IFood } from "../../types";
+import { IFood } from "../../components/Food/IFood";
 
 export function Dashboard() {
   const [foods, setFoods] = useState<IFood[]>([]);

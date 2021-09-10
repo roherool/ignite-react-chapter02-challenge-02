@@ -6,7 +6,7 @@ import { Form } from "./styles";
 import { Modal } from "../Modal";
 import { Input } from "../Input";
 
-import { IFood } from "../../types";
+import { IFood } from "../Food/IFood";
 
 interface IModalEditFoodProps {
   editingFood: IFood | undefined;
